@@ -3,7 +3,7 @@
 	* 01.通过`_`符号实现
 * 01.不定参数
 	* 00.传入数组示例:
-	```
+```golang
 package main
 
 import "fmt"
@@ -21,7 +21,8 @@ func main() {
     show(slice...)
 
 }
-	```
+```
+
 * 02.代码块
 	* 00.使用`{}`符号
 * 03.跳转
@@ -30,7 +31,7 @@ func main() {
 	* 02.`break`
 * 04.匿名函数
 	* 匿名函数示例:
-	```
+```golang
 package main
 
 import "fmt"
@@ -46,6 +47,10 @@ func main() {
 
 }
 
-	```
+```
+
 * 05.for 调试
-```var _ = fmt.Println //for debugger```
+```golang
+var _ = fmt.Println //for debugger
+```
+*避免开发时使用 fmt，发布时去掉调试信息提示 fmt 包引入没使用*
